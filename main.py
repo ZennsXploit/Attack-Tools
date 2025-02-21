@@ -1,4 +1,8 @@
-import requests import random import time import sys from ai_protection import AIProtection  # Import AI Protection
+import requests
+import random
+import time
+import sys
+from ai_protection import AIProtection  # Import AI Protection
 
 if len(sys.argv) != 4: print("Usage: python main.py {web target} {time} {methods}") sys.exit(1)
 
