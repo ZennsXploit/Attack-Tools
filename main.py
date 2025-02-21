@@ -4,7 +4,9 @@ import time
 import sys
 from ai_protection import AIProtection  # Import AI Protection
 
-if len(sys.argv) != 4: print("Usage: python main.py {web target} {time} {methods}") sys.exit(1)
+if len(sys.argv) != 4:  
+    print("Usage: python main.py {web target} {time} {methods}")  
+    sys.exit(1)
 
 target_url = sys.argv[1] duration = int(sys.argv[2]) methods = sys.argv[3].upper()
 
